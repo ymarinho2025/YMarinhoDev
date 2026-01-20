@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+  .hero-title { font-size: 2.5rem; }
+  .hero-subtitle { font-size: 1.125rem; }
+
+  .section-title { font-size: 2rem; }
+  .section { padding: 3rem 0; }
+
+  .container { padding: 0 1rem; }
+
+  .skills-grid,
+  .projects-grid,
+  .sites-list,
+  .languages-grid,
+  .contact-buttons {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-content { flex-direction: column; text-align: center; }
+  .footer-nav { justify-content: center; }
+}

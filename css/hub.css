@@ -1,0 +1,86 @@
+/* Container principal */
+.containerSites {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+/* Agrupa título, caixa e texto */
+.card-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  text-align: center;
+}
+
+/* Título com ícone */
+.card-text, a.perfil {
+text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+
+/* Ícone pequeno */
+.card-text .icon {
+  border-radius: 20px;
+  width: 20%;
+  height: 40px;
+  object-fit: cover;
+}
+
+/* Caixa (imagem grande) */
+.card {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #333;
+  transition: transform 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Texto abaixo da imagem */
+.card-desc {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #222;
+  margin-top: 10px;
+  line-height: 1.4;
+  max-width: 90%;
+}
+
+/* ======== RESPONSIVIDADE ======== */
+@media (max-width: 768px) {
+  .card-group {
+    width: 90%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1199px) {
+  .card-group {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-group {
+    width: 40%;
+  }
+}
