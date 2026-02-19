@@ -18,7 +18,7 @@
   display: inline-block;
 }
 
-.btn:hover { background: #1a1a1a; color: #ffffff; }
+.btn:hover { background: #1a1a1a; color: #2546ff; }
 
 .btn-primary { background: #1a1a1a; color: #ffffff; }
 .btn-primary:hover { background: #333; }
@@ -34,7 +34,7 @@
 .skill-category {
   border: 1px solid #ffffff;
   padding: 2rem;
-  background: #2d2fc7;
+  background: #2546ff;
 }
 
 .skill-category-title {
@@ -69,7 +69,7 @@
   border: 1px solid #e5e5e5;
   padding: 2rem;
   transition: all 0.3s ease;
-  background: #2d2fc7;
+  background: #2546ff;
 }
 
 .project-card:hover {
@@ -135,11 +135,11 @@
   text-align: center;
   padding: 2rem;
   border: 1px solid #e5e5e5;
-  background: #fafafa;
+  background: #2546ff;
 }
 
-.language-name { color: #000000; font-size: 1.25rem; font-weight: 600; margin-bottom: 0.5rem; }
-.language-level { color: #666; font-size: 0.95rem; }
+.language-name { color: #ffffff; font-size: 1.25rem; font-weight: 600; margin-bottom: 0.5rem; }
+.language-level { color: #ffffff; font-size: 0.95rem; }
 
 /* Contact */
 .contact-buttons {
@@ -155,8 +155,8 @@
 .contact-btn {
   padding: 1.25rem 2rem;
   border: 1px solid #1a1a1a;
-  background: #ffffff;
-  color: #1a1a1a;
+  background: #2546ff;
+  color: #ffffff;
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
@@ -166,7 +166,7 @@
   justify-content: center;
 }
 
-.contact-btn:hover { background: #1a1a1a; color: #ffffff; }
+.contact-btn:hover { background: #1a1a1a; color: #2546ff; }
 
 /* Footer */
 .footer {
